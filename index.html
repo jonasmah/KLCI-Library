@@ -1,208 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>HappyJon</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-<!--social media button--><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="home.css">
+    <title>FINFIN Terminal</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">   
+    
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    <style>
+        .navbar-brand {
+            font-size: 155%;
+        }
+        
+        .nav{
+            font-size: 108%;
+        }
+    </style>
 </head>
 <body>
-
-<!--<div class="topnav">
-  <a href="#">Home</a>
-  <a href="#">Social</a>
-  <a href="#">Finance</a>
-  <a href="#">Technology</a>
-  <a href="#">Politics</a>
-</div>-->
-
-<div class="content">
-	<div class="container1">
-	<header>
-  		<h2><a href="home.html"><b>哈皮JON</b></a>	</h2>
-  		<p><b>专注于时事背后的故事</b></p>
-  	</header>
-
-<div class="row">
-  <div class="leftcolumn">
-    <!-- POST -->
-    <div class="card">
-      <!-- Title -->
-      <h3><a href="page1.html"><b>羅伯特·清崎：经济刺激政策只让富人受惠</b></a></h3>
-      <h6>Apr 4, 2020</h6>
-      <a href="page1.html"><img src="pic/kiyosaki2.jpg" alt="Kiyosaki and Trump" class="pic"></a>
-      <!-- brief content -->
-      <p>富人经济刺激政策
-<br/>在美国经济刺激推出后的第一天，羅伯特·清崎评击该政策不但没有起到保护穷人和中产阶级的效用而是一个保护富人资产...</p>
-		    <p><a href="page1.html"><button>READ MORE »</button></a></p>
-           	<!-- Load Facebook SDK for JavaScript -->
-			  <script>(function(d, s, id) {
-			    var js, fjs = d.getElementsByTagName(s)[0];
-			    if (d.getElementById(id)) return;
-			    js = d.createElement(s); js.id = id;
-			    js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
-			    fjs.parentNode.insertBefore(js, fjs);
-			  }(document, 'script', 'facebook-jssdk'));</script>
-
-			  <!-- Your share button code -->
-			  <div class="fb-share-button" 
-			    data-href="https://www.w3schools.com/howto/howto_css_social_media_buttons.asp" 
-			    data-layout="button_count">
-			  </div>
-    </div>
-  </div>
-
-    <!-- POST -->
-    <div class="card">
-      <!-- Title -->
-      <h3><a href="page2.html"><b>新型冠状病毒肺炎COronaVIrus Diease（COVID-19）你了解它吗</b></a></h3>
-      <h6>Apr 11, 2020</h6>
-      <a href="page2.html"><img src="pic/Covid.jpg" alt="Kiyosaki and Trump" class="pic"></a>
-      <!-- brief content -->
-      <br/>根据世卫组织提供的资料，冠状病毒是其中一种能够同时传染人类和动物的大型病毒家族。已知的冠状病毒包括感冒和中东...</p>
-        <p><a href="page2.html"><button>READ MORE »</button></a></p>
-            <!-- Load Facebook SDK for JavaScript -->
-        <script>(function(d, s, id) {
-          var js, fjs = d.getElementsByTagName(s)[0];
-          if (d.getElementById(id)) return;
-          js = d.createElement(s); js.id = id;
-          js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
-          fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));</script>
-
-        <!-- Your share button code -->
-        <div class="fb-share-button" 
-          data-href="https://www.w3schools.com/howto/howto_css_social_media_buttons.asp" 
-          data-layout="button_count">
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#"><strong>FINFIN Terminal</strong></a>
+            </div>
+            
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" >Earnings<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://www.cnbc.com/earnings/" target="_blank">CNBC Earnings</a></li>
+                        <li><a href="https://www.marketwatch.com/markets/earnings" target="_blank">MarketWatch Earnings</a></li>
+                        <li><a href="https://www.reuters.com/finance/EarningsUS" target="_blank">Reuters Earnings</a></li>
+                        <li><a href="https://markets.businessinsider.com/earnings-calendar" target="_blank">BusinessInsider Calender</a></li>
+                        <li><a href="https://www.malaysiastock.biz/Quarterly-Report.aspx" target="_blank">MalaysiaStockBiz Earnings</a></li>
+                    </ul>
+                </li>
+                
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" >Corporate Action<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://www.marketbeat.com/manage/watchlists/#insidertrades" target="_blank">MarketBeat Insider Trades</a></li>
+                        <li><a href="https://www.marketbeat.com/stock-buybacks/" target="_blank">MarketBeat Share Buyback</a></li>
+                        <li><a href="https://klse.i3investor.com/insider/substantialShareholder/latest.jsp" target="_blank">i3Investor Shareholder Transactions</a></li>
+                    </ul>
+                </li>
+                
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" >Research<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://tradingeconomics.com/" target="_blank">TradingEconomics</a></li>
+                        <li><a href="https://www.bursamalaysia.com/reference/research_repository/research_reports" target="_blank">Bursa Reports</a></li>
+                        <li><a href="https://www.bursamarketplace.com/mkt/tools/research" target="_blank">BursaMarketPlace Reports</a></li>
+                    </ul>
+                </li>
+                
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" >News<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://www.reuters.com/" target="_blank">Reuters</a></li>
+                        <li><a href="http://cn.nikkei.com/" target="_blank">日经网</a></li>
+                        <li><a href="https://cn.reuters.com/" target="_blank">路透社</a></li>
+                        <li><a href="https://cn.investing.com/" target="_blank">英为财情</a></li>
+                        <li><a href="https://www.theedgemarkets.com/categories/news" target="_blank">The Edge</a></li>
+                        <li><a href="https://klse.i3investor.com/jsp/blog/bloghl.jsp" target="_blank">i3Investor Headlines</a></li>
+                    </ul>
+                </li>
+                
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" >Charts<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://www.tradingview.com/chart/?symbol=NASDAQ%3AAMZN" target="_blank">TradingView</a></li>
+                        <li><a href="https://finance.yahoo.com/chart/AAPL#eyJpbnRlcnZhbCI6ImRheSIsInBlcmlvZGljaXR5IjoxLCJjYW5kbGVXaWR0aCI6MjkuNDg2NDg2NDg2NDg2NDg4LCJmbGlwcGVkIjpmYWxzZSwidm9sdW1lVW5kZXJsYXkiOnRydWUsImFkaiI6dHJ1ZSwiY3Jvc3NoYWlyIjp0cnVlLCJjaGFydFR5cGUiOiJjYW5kbGUiLCJleHRlbmRlZCI6ZmFsc2UsIm1hcmtldFNlc3Npb25zIjp7fSwiYWdncmVnYXRpb25UeXBlIjoib2hsYyIsImNoYXJ0U2NhbGUiOiJsaW5lYXIiLCJwYW5lbHMiOnsiY2hhcnQiOnsicGVyY2VudCI6MSwiZGlzcGxheSI6IkFBUEwiLCJjaGFydE5hbWUiOiJjaGFydCIsImluZGV4IjowLCJ5QXhpcyI6eyJuYW1lIjoiY2hhcnQiLCJwb3NpdGlvbiI6bnVsbH0sInlheGlzTEhTIjpbXSwieWF4aXNSSFMiOlsiY2hhcnQiLCLigIx2b2wgdW5kcuKAjCJdfX0sInNldFNwYW4iOm51bGwsImxpbmVXaWR0aCI6Miwic3RyaXBlZEJhY2tncm91bmQiOnRydWUsImV2ZW50cyI6dHJ1ZSwiY29sb3IiOiIjMDA4MWYyIiwic3RyaXBlZEJhY2tncm91ZCI6dHJ1ZSwicmFuZ2UiOm51bGwsImV2ZW50TWFwIjp7ImNvcnBvcmF0ZSI6eyJkaXZzIjp0cnVlLCJzcGxpdHMiOnRydWV9LCJzaWdEZXYiOnt9fSwiY3VzdG9tUmFuZ2UiOm51bGwsInN5bWJvbHMiOlt7InN5bWJvbCI6IkFBUEwiLCJzeW1ib2xPYmplY3QiOnsic3ltYm9sIjoiQUFQTCIsInF1b3RlVHlwZSI6IkVRVUlUWSIsImV4Y2hhbmdlVGltZVpvbmUiOiJBbWVyaWNhL05ld19Zb3JrIn0sInBlcmlvZGljaXR5IjoxLCJpbnRlcnZhbCI6ImRheSIsInNldFNwYW4iOm51bGx9XSwic3R1ZGllcyI6eyLigIx2b2wgdW5kcuKAjCI6eyJ0eXBlIjoidm9sIHVuZHIiLCJpbnB1dHMiOnsiaWQiOiLigIx2b2wgdW5kcuKAjCIsImRpc3BsYXkiOiLigIx2b2wgdW5kcuKAjCJ9LCJvdXRwdXRzIjp7IlVwIFZvbHVtZSI6IiMwMGIwNjEiLCJEb3duIFZvbHVtZSI6IiNmZjMzM2EifSwicGFuZWwiOiJjaGFydCIsInBhcmFtZXRlcnMiOnsid2lkdGhGYWN0b3IiOjAuNDUsImNoYXJ0TmFtZSI6ImNoYXJ0IiwicGFuZWxOYW1lIjoiY2hhcnQifX0sIuKAjG1h4oCMICgxMCxDLG1hLDApIjp7InR5cGUiOiJtYSIsImlucHV0cyI6eyJQZXJpb2QiOiIxMCIsIkZpZWxkIjoiQ2xvc2UiLCJUeXBlIjoic2ltcGxlIiwiT2Zmc2V0IjowLCJpZCI6IuKAjG1h4oCMICgxMCxDLG1hLDApIiwiZGlzcGxheSI6IuKAjG1h4oCMICgxMCxDLG1hLDApIn0sIm91dHB1dHMiOnsiTUEiOiIjZTA5YzAwIn0sInBhbmVsIjoiY2hhcnQiLCJwYXJhbWV0ZXJzIjp7ImNoYXJ0TmFtZSI6ImNoYXJ0IiwicGFuZWxOYW1lIjoiY2hhcnQifX0sIuKAjG1h4oCMICg1MCxDLG1hLDApIjp7InR5cGUiOiJtYSIsImlucHV0cyI6eyJQZXJpb2QiOjUwLCJGaWVsZCI6IkNsb3NlIiwiVHlwZSI6InNpbXBsZSIsIk9mZnNldCI6MCwiaWQiOiLigIxtYeKAjCAoNTAsQyxtYSwwKSIsImRpc3BsYXkiOiLigIxtYeKAjCAoNTAsQyxtYSwwKSJ9LCJvdXRwdXRzIjp7Ik1BIjoiIzk3MDA2NCJ9LCJwYW5lbCI6ImNoYXJ0IiwicGFyYW1ldGVycyI6eyJjaGFydE5hbWUiOiJjaGFydCIsInBhbmVsTmFtZSI6ImNoYXJ0In19LCLigIxtYeKAjCAoMjAwLEMsbWEsMCkiOnsidHlwZSI6Im1hIiwiaW5wdXRzIjp7IlBlcmlvZCI6IjIwMCIsIkZpZWxkIjoiQ2xvc2UiLCJUeXBlIjoic2ltcGxlIiwiT2Zmc2V0IjowLCJpZCI6IuKAjG1h4oCMICgyMDAsQyxtYSwwKSIsImRpc3BsYXkiOiLigIxtYeKAjCAoMjAwLEMsbWEsMCkifSwib3V0cHV0cyI6eyJNQSI6IiMwMDYxY2IifSwicGFuZWwiOiJjaGFydCIsInBhcmFtZXRlcnMiOnsiY2hhcnROYW1lIjoiY2hhcnQiLCJwYW5lbE5hbWUiOiJjaGFydCJ9fX19" target="_blank">Yahoo Finance</a></li>
+                        <li><a href="https://www.malaysiastock.biz/Stock-Chart.aspx?securitycode=4065&mode=D" target="_blank">MalaysiaStockBiz Chart</a></li>
+                    </ul>
+                </li>
+                                
+                <!-- DropDown Example 
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" >ABC<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="" target="_blank">123</a></li>
+                        <li><a href="" target="_blank">123</a></li>
+                        <li><a href="" target="_blank">123</a></li>
+                    </ul>
+                </li>
+-->
+                
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+            </ul>
+            
+            <!--future search engine-->
+            <form class="navbar-form navbar-left" action="">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="eg. APPL or 0388">
+                </div>
+                <button type="submit" class="btn btn-default">Search</button>
+                
+                <!-- future notification -->      
+                <button class="btn btn-danger navbar-btn">Notification</button>
+            </form>
+                  
         </div>
+    </nav>
+    <div>
     </div>
-
-    <!-- POST -->
-    <div class="card">
-      <!-- Title -->
-      <h3><a href="page3.html"><b>行动管制令：大马新政府的大考验，你打几分？</b></a></h3>
-      <h6>Apr 12, 2020</h6>
-      <a href="page3.html"><img src="pic/mco1.jpg" alt="mco" class="pic"></a>
-      <!-- brief content -->
-      <br/>基于法律1988年传染病预防和控制法（Prevention and Control of Infectious Diseases），首相慕尤丁决定实行行动管制令...</p>
-        <p><a href="page3.html"><button>READ MORE »</button></a></p>
-            <!-- Load Facebook SDK for JavaScript -->
-        <script>(function(d, s, id) {
-          var js, fjs = d.getElementsByTagName(s)[0];
-          if (d.getElementById(id)) return;
-          js = d.createElement(s); js.id = id;
-          js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
-          fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));</script>
-
-        <!-- Your share button code -->
-        <div class="fb-share-button" 
-          data-href="https://www.w3schools.com/howto/howto_css_social_media_buttons.asp" 
-          data-layout="button_count">
-        </div>
-    </div>
-
-    <!-- POST -->
-    <div class="card">
-      <!-- Title -->
-      <h3><a href="page4.html"><b>马斯克：将捐助1200医疗呼吸机以帮助疫情      你知道成本多少吗</b></a></h3>
-      <h6>May 3, 2020</h6>
-      <a href="page4.html"><img src="pic/elon.jpg" alt="elon" class="pic"></a>
-      <!-- brief content -->
-      <br/>传奇科技企业家埃隆马斯克(Elon Musk)最近关于新型冠状病毒对小孩基本上并不造成威胁的评论引起广泛关注，他甚至直指对疫情的恐慌情绪相当愚蠢...</p>
-        <p><a href="page4.html"><button>READ MORE »</button></a></p>
-            <!-- Load Facebook SDK for JavaScript -->
-        <script>(function(d, s, id) {
-          var js, fjs = d.getElementsByTagName(s)[0];
-          if (d.getElementById(id)) return;
-          js = d.createElement(s); js.id = id;
-          js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
-          fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));</script>
-
-        <!-- Your share button code -->
-        <div class="fb-share-button" 
-          data-href="https://www.w3schools.com/howto/howto_css_social_media_buttons.asp" 
-          data-layout="button_count">
-        </div>
-    </div>
-
-    <!-- POST -->
-    <div class="card">
-      <!-- Title -->
-      <h3><a href="page5.html"><b>疫情3大受影响行业</b></a></h3>
-      <h6>Apr 4, 2020</h6>
-      <a href="page5.html"><img src="pic/covid_industry.jpg" alt="covid_industry" class="pic"></a>
-      <!-- brief content -->
-      <br/>自全球各国疫情防范措施推出后，其中禁止国人出国与外国人入境的条款致使世界航空需求大减，大量飞机被迫停留在机场...</p>
-        <p><a href="page5.html"><button>READ MORE »</button></a></p>
-            <!-- Load Facebook SDK for JavaScript -->
-        <script>(function(d, s, id) {
-          var js, fjs = d.getElementsByTagName(s)[0];
-          if (d.getElementById(id)) return;
-          js = d.createElement(s); js.id = id;
-          js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
-          fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));</script>
-
-        <!-- Your share button code -->
-        <div class="fb-share-button" 
-          data-href="https://www.w3schools.com/howto/howto_css_social_media_buttons.asp" 
-          data-layout="button_count">
-        </div>
-    </div>
-  </div>  
-  </div>
-
-
-  <!-- <div class="rightcolumn">
-  	
-    <div class="card">
-      <h3>Popular Post</h3>
-      <div class="fakeimg">Image</div><br>
-      <div class="fakeimg">Image</div><br>
-      <div class="fakeimg">Image</div>
-    </div>
-
-    <div class="card">
-      <h3>Follow Me</h3>
-      	<div class="followme">
-      	<a href="#" class="fa fa-facebook"></a>
-		<a href="#" class="fa fa-twitter"></a>
-		<a href="#" class="fa fa-instagram"></a>
-		</div>
-    </div>
-  </div>-->
-</div>  	
-
-<!-- Pagination -->
-<div class="center">
-	<div class="pagination">
-		  <a href="#">&laquo;</a>
-		  <!--<a href="#" class="active">1</a>
-		  <a href="#">2</a>
-		  <a href="#">3</a>
-		  <a href="#">4</a>
-		  <a href="#">5</a>
-		  <a href="#">6</a>-->
-		  <a href="home2.html">&raquo;</a>
-	</div>
-</div>
-
-<div class="footer">
-  <p>Powered by Trump.</p>
-    <!-- Add font awesome icons -->
-    <a href="#" class="fa fa-facebook"></a>
-    <a href="#" class="fa fa-instagram"></a>
-    <!--<a href="#" class="fa fa-youtube"></a>
-    <a href="#" class="fa fa-twitter"></a>-->
-</div>
-
-</body>
+</body>    
 </html>
